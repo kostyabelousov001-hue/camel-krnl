@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camel-Krnl | Under Development</title>
+    <style>
+        /* Apple System Fonts */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow: hidden;
+        }
+
+        /* Анимированный фон как на презентациях Apple */
+        .gradient-bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #000 100%);
+            z-index: -1;
+        }
+
+        .content {
+            text-align: center;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: -0.015em;
+            margin-bottom: 10px;
+            background: linear-gradient(180deg, #fff 0%, #a1a1a1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            font-size: 21px;
+            color: #86868b;
+            font-weight: 400;
+            margin-top: 0;
+        }
+
+        /* Эффект свечения */
+        .badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #f5f5f7;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 40px;
+            font-size: 12px;
+            color: #424245;
+        }
+    </style>
+</head>
+<body>
+    <div class="gradient-bg"></div>
+    
+    <div class="content">
+        <div class="badge">Status: Alpha-Phase</div>
+        <h1>Camel-Krnl</h1>
+        <p>В разработке</p>
+    </div>
+
+    <div class="footer">
+        © 2026 Lead Architect Kostya. Все права защищены.
+    </div>
+</body>
+</html>
